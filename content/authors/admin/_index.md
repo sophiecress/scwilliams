@@ -48,4 +48,4 @@ highlight_name: true
 website: ""
 ---
 
-Sophie Williams is a spatial ecologist currently working with the U.S. Fish and Wildlife Service. She has expertise in collecting, managing, and analyzing biological and spatial data; using GIS and other technological tools including R and Python; written and spoken communication; diverse stakeholder collaboration; complex problem-solving skills; excellent organization; and effective project management.
+Sophie Williams is a spatial ecologist currently working with the U.S. Fish and Wildlife Service. She has expertise in collecting, managing, and analyzing biological and spatial data; using GIS and other data visualization tools; diverse stakeholder collaboration; complex problem-solving skills; and effective project management.
