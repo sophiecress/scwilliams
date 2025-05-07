@@ -1,157 +1,19 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: Monitoring reef flat habitat change in South Water Caye Marine Reserve, Belize
 authors:
   - admin
-tags:
-  - Hugo
-  - Hugo Blox
-  - Markdown
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+My Master's thesis was published in 2023 in <i>Environmental Biology of Fishes</i>. In this project, I applied remote sensing techniques to map ecologically and economically important habitats and measure change within them over time.
 
-## Charts
+## Abstract
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+Both ecological and anthropogenic changes constantly shape the form, function, and longevity of tropical marine ecosystems. With emerging technologies in remote sensing and Geographic Information Systems (GIS) analysis, these changes can be accurately and efficiently monitored to provide actionable information to help shape the future of marine protected areas (MPAs). The South Water Caye Marine Reserve (SWCMR), an MPA in southern Belize, contains the largest unbroken stretch of the Belize Barrier Reef as well as many small mangrove islands, patch reefs, and seagrass beds that sustain myriad threatened and economically important fisheries. While this is an important marine reserve, no study has documented change within it. This study fills this knowledge gap by applying land use and land cover (LULC) change analysis methods to 3- and 5-m resolution satellite images from Planet taken in 2010 and 2019 to measure changes in open water, seagrass, terrestrial vegetation, and developed and barren land cover within the SWCMR. The results of this study have an accuracy of at least 80%. They reveal decreases in seagrass cover and increases in the developed and barren areas in and around the SWCMR. While greater amounts of change are found outside the marine reserve boundaries, within the SWCMR, the total area of developed and barren land cover increased by 203.77% and 70.97%, respectively, from 2010 to 2019. Documenting these changes in the SWCMR establishes the reserve as a model for understanding the tropical marine environments throughout Belize and provides valuable data for management decision-making.
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
+## Maps and Graphics
+This map orients the viewer in the article’s geography while showing the location of the reef and caye habitat in South Water Caye Marine Reserve.
+![Alt text](https://example.com/path/to/image.jpg)
 
-Demo:
-
-{{< chart data="line-chart" >}}
-
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
-
-## Diagrams
-
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
-
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
-```
-
-## Data Frames
-
-Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
-
-```go
-{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
-```
-
-renders as
-
-{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+A second map adds information about habitat, or "cover" type to the overview map, highlighting areas of increased sandy or built up areas.
+![Alt text](https://example.com/path/to/image.jpg)
