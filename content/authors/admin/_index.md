@@ -25,7 +25,7 @@ organizations:
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: ''
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -33,19 +33,13 @@ profiles:
   - icon: at-symbol
     url: 'mailto:williams.c.sophie@gmail.com'
     label: E-mail Me
-  - icon: ''
-    url: ''
-  - icon: ''
-    url: ''
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/sophie-c-williams/
+    label: Visit LinkedIn profile
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
-  - icon: ''
-    url: ''
-    label: ''
-  - icon: ''
-    url: ''
-    label: ''
+  - icon: academicons/cv
+    url: uploads/SophieWilliamsResume.pdf
+    label: Download my resume
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
