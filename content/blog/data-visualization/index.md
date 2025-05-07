@@ -14,8 +14,8 @@ Both ecological and anthropogenic changes constantly shape the form, function, a
 ## Maps and Graphics
 This map orients the viewer in the article’s geography while showing the location of the reef and caye habitat in South Water Caye Marine Reserve.
 
-filename: Figure1.png
+!(/Figure1.png)
 
 A second map adds information about habitat, or "cover" type to the overview map, highlighting areas of increased sandy or built up areas.
 
-filename: Figure2.png
+!(/Figure2.png)
