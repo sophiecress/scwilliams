@@ -8,7 +8,7 @@ authors:
 For ten weeks in the summer of 2021, I completed an internship with USFWS through their Directorate Fellowship Program. During this experience, I networked with other conservation professionals, learned about the USFWS mission, and completed an independent project. 
 
 In this project, I created a visual risk analysis surface map of the southeast United States, in which risk to listed species from chemical hazards is shown on a numeric color scale. 
-In addition to creating the map deliverables for the project, I also documented all data, saved them, and shared project outcomes with relevant audiences of restoration practitioners and oil and hazardous spill response professionals.
+In addition to creating the map deliverables for the project, I also documented all data, managed project deadlines, and shared project outcomes with relevant audiences of restoration practitioners and oil and hazardous spill response professionals.
 
 ## Project Description 
 
