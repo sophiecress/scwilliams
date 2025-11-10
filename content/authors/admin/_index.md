@@ -38,7 +38,7 @@ profiles:
     label: Visit LinkedIn profile
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
-    url: uploads/SophieWilliamsResume_11092025.pdf
+    url: uploads/SophieWilliams_Resume_11092025.pdf
     label: Download my resume
 
 # Highlight the author in author lists? (true/false)
